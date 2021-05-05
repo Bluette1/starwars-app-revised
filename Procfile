@@ -1,1 +1,1 @@
-web: yarn build && node src/index.js
+web: npm run build-deploy --prefix ../client && node src/index.js
