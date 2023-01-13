@@ -3,3 +3,4 @@ build/
 .env
 public/
 yarn-error.log
+# anything private
