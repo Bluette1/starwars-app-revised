@@ -7,6 +7,7 @@
     "lint": "eslint .",
     "lint-f": "eslint . --fix",
     "dev:server": "nodemon 'src/index.js'",
+    "preserver": "prisma db push --preview-feature",
     "server": "node 'src/index.js'",
     "test": "jest",
     "client": "npm start --prefix ../client",
